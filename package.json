@@ -2,7 +2,7 @@
   "name": "mashup-dev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cesarsmo.github.io/mashup",
+  "homepage": "https://itgnordica-mashup.vercel.app/",
   "email": "cesar.moori@nordica.net.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
