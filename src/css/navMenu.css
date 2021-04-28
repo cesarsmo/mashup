@@ -1,0 +1,67 @@
+.sideNavMenu {
+    background-color: #232F3E;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    /* propriedade que define a ordem de layer na página */
+    z-index: 5;
+    /* sombreado: x y blur color*/
+    box-shadow: 10px 0px 6px #00000038;
+    /* animação de abertura do menu, efeito ease-out dura 0.3s */
+    transition: width ease-out 0.3s;
+    /* elementos que não cabem serão escondidos */
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* se não aberto width=0 se aberto tamanho de 330px */
+.sideNavMenu.open {
+    width: 330px;
+}
+
+.blackScreen {
+    background-color: #000000;
+    opacity: 0.64;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index:2;
+    transition: background-color 0.3s;
+}
+
+@media (min-width: 1025px){
+    .navMenu {
+        display: none;
+    }
+}
+
+.navMenuHeader {
+    /* RGBA consegue passar opacidade que troca apenas a cor e não o componente */
+    background-color: #FFFFFF;
+    width: 100%; /*ocupar o tamanho inteiro da div que estiver*/
+    height: 90px;
+    /* opacity: 0.62; */
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 29px;
+    padding-right: 29px;
+    display: flex; /* alinha os elementos */
+}
+
+.navTitle {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: black;
+    margin-left: 24px;
+    line-height: 24px;
+}
+
+.logoMobile {
+    width: 60px;
+}

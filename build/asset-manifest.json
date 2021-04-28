@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mashup/static/css/main.cfb8ada9.chunk.css",
+    "main.js": "/mashup/static/js/main.04c92f66.chunk.js",
+    "main.js.map": "/mashup/static/js/main.04c92f66.chunk.js.map",
+    "runtime-main.js": "/mashup/static/js/runtime-main.0091368c.js",
+    "runtime-main.js.map": "/mashup/static/js/runtime-main.0091368c.js.map",
+    "static/js/2.98d95494.chunk.js": "/mashup/static/js/2.98d95494.chunk.js",
+    "static/js/2.98d95494.chunk.js.map": "/mashup/static/js/2.98d95494.chunk.js.map",
+    "index.html": "/mashup/index.html",
+    "static/css/main.cfb8ada9.chunk.css.map": "/mashup/static/css/main.cfb8ada9.chunk.css.map",
+    "static/js/2.98d95494.chunk.js.LICENSE.txt": "/mashup/static/js/2.98d95494.chunk.js.LICENSE.txt",
+    "static/media/Nordica.3c0b13bc.png": "/mashup/static/media/Nordica.3c0b13bc.png",
+    "static/media/QS_Capa_Nordica2.0f23df76.png": "/mashup/static/media/QS_Capa_Nordica2.0f23df76.png",
+    "static/media/index.css": "/mashup/static/media/Roboto-Regular.03523cf5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0091368c.js",
+    "static/js/2.98d95494.chunk.js",
+    "static/css/main.cfb8ada9.chunk.css",
+    "static/js/main.04c92f66.chunk.js"
+  ]
+}

@@ -1,0 +1,49 @@
+.pageDiv {
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.pageTitleDiv {
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 10px;
+    margin-bottom: 34px;
+}
+
+.pageTitle {
+    font: normal normal normal 24px/35px "Roboto";
+    letter-spacing: 0px;
+    color: #4C5869;
+
+}
+
+.kpisDiv {
+    /* height: 134px; altura fica no estilo do gráfico  */
+    width: 100%;
+    background-color: #F3F3F3;
+    padding: 16px;
+    display: flex;
+}
+
+.chartsDiv {
+    /* height: 344px; */
+    margin-top: 32px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .kpisDiv {
+        flex-direction: column;
+    }
+
+    .chartsDiv {
+        flex-direction: column;
+    }
+
+    .pageDiv {
+        margin-top: 50px;
+    }
+    
+}

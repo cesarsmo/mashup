@@ -1,0 +1,49 @@
+/* sobreescrevendo classes do Qlik */
+.sn-kpi .sn-kpi-ellips-text span {
+    font-family: "Roboto";
+}
+
+.sn-kpi-measure-title span {
+    color: #8696AC;
+    font-family: "Roboto";
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.kpiBig .sn-kpi-measure-title span {
+    font-size: 30px;
+}
+
+.sn-kpi-value span {
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.qv-collapsed-listbox .title-wrapper {
+    background: #404F61;
+}
+
+.qv-collapsed-listbox .title-wrapper .title {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.qv-state-count-bar .state {
+    background: #A7A7A7 !important;;
+}
+
+
+.qv-state-count-bar .state.selected {
+    background: #FF9900 !important;
+}
+
+.qv-state-count-bar .state.optional {
+    background: #FFFFFF !important;;
+}
+
+.qv-collapsed-listbox {
+    border: 0 !important;
+}

@@ -1,0 +1,65 @@
+.currentSelections {
+    background-color: #3C4858;
+    height: 173px;
+    margin-bottom: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow: overlay;
+}
+
+/* mexendo no scroll */
+.currentSelections::-webkit-scrollbar {
+    width: 10px;
+}
+
+.currentSelections::-webkit-scrollbar-track {
+    background: transparent;
+    opacity: 0;
+    display: none;
+}
+
+.currentSelections::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 10px;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.selectionTitle {
+    text-align: left;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 11px;
+}
+ 
+.currentSelections .selected {
+    background: #FF9900;
+    min-height: 29px;
+    padding-left: 11px;
+    padding-right: 22px;
+}
+
+/* dentro da classe selected, edita apenas o span nela */
+.selected span {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noSelection {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8px;
+}

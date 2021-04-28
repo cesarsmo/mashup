@@ -1,0 +1,84 @@
+.sideFilterMenu {
+    background-color: #232F3E;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    width: 0px;
+    /* propriedade que define a ordem de layer na página */
+    z-index: 5;
+    /* sombreado: x y blur color*/
+    box-shadow: 10px 0px 6px #00000038;
+    /* animação de abertura do menu, efeito ease-out dura 0.3s */
+    transition: width ease-out 0.3s;
+}
+
+/* se não aberto width=0 se aberto tamanho de 330px */
+.sideFilterMenu.open {
+    width: 330px;
+}
+
+.FilterblackScreen {
+    background-color: #000000;
+    opacity: 0.64;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index:2;
+    transition: background-color 0.3s;
+}
+
+
+
+.filterHeader {
+    padding: 11px 20px 13px 20px;
+    background-color: #4C5869;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterTitle {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+
+.filtersDiv {
+    padding: 27px 20px 20px 22px;
+}
+
+.clearAll {
+    background: #6E7A8B;
+    border-radius: 3px;
+    height: 40px;
+    text-decoration: none;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Roboto" ! important;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1025px) {
+    .FilterblackScreen {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .filterHeader .menuButton {
+        display: none
+    }
+}
